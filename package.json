@@ -1,0 +1,21 @@
+{
+  "name": "fucking-js",
+  "version": "1.0.0",
+  "description": "算法和数据结构的js实现",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "keywords": [
+    "leetcode",
+    "算法",
+    "数据结构"
+  ],
+  "author": "youngjuning",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}
