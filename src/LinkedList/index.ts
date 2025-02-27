@@ -131,7 +131,7 @@ export class LinkedList {
 
   toString() {
     if (this.head === null) {
-      return "";
+      return '';
     }
     let objString = `${this.head.element}`;
     let current = this.head.next;

@@ -1,8 +1,11 @@
 {
   "name": "fucking-js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "算法和数据结构的js实现",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
