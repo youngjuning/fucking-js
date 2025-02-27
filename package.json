@@ -2,7 +2,7 @@
   "name": "fucking-js",
   "version": "1.0.0",
   "description": "算法和数据结构的js实现",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
